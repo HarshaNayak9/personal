@@ -1,0 +1,225 @@
+body {
+  color: #40514e;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+h1 {
+  margin-top: 0;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: sans-serif;
+}
+hr{
+border:dotted #EAF6F6 6px;
+border-bottom: none;
+width:4%;
+margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family:sans-serif;
+  margin:20px 10px;
+  text-decoration: none;
+
+}
+a:hover{
+  color:#EAF6F6;
+
+}
+p{
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+.text{
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  margin: auto;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size:0.75rem;
+  padding:20px 0;
+}
+.top {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+
+
+
+}
+
+.bottom-container{
+
+  background-color: #66BFBF;
+    margin: auto;
+    padding:50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.propic {
+  width: 100px;
+  margin: 30px auto 10px auto;
+  border-radius: 80px;
+}
+
+.codepic {
+  width: 35%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 60%;
+  text-align: left;
+  line-height: 2;
+}
+
+.project-row {
+  margin: 100px auto 100px auto;
+  width: 75%;
+  text-align: left;
+  line-height: 2;
+}
+
+.project1 {
+  width: 25%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.project2 {
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 30px;
+  line-height: 2;
+}
+
+.project3 {
+  width: 25%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.project4 {
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.submit {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.submit:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+input {
+    padding: 7px;
+    font-size: 22px;
+    border-width: 2px;
+    border-color: #0ccadb;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(17 205 212 / 30%);
+    text-shadow: -4px 0px 5px rgb(17 205 212 / 68%);
+}
+textarea {
+    padding: 7px;
+    font-size: 22px;
+    border-width: 2px;
+    border-color: #0ccadb;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(17 205 212 / 30%);
+    text-shadow: -4px 0px 5px rgb(17 205 212 / 68%);
+}
